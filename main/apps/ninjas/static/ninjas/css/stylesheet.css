@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  background: black;
+}
+
+body {
+   width: 1000px;
+   height: 800px;
+   margin-top: 200px;
+}
+
+h1 {
+   background: white;
+   vertical-align: middle;
+   text-align: center;
+}
+
+h5 {
+   background: white;
+   vertical-align: middle;
+   margin-top: 20px;
+   text-align: center;
+}
+#imgblock {
+   width: 400px;
+   height: 400px;
+   padding: 50px;
+   margin-top: 75px;
+   text-align: center;
+   background-color: white;
+}
+img {
+   width: 45%;
+   height: 45%;
+   display: inline-block;
+   vertical-align: middle;
+}
