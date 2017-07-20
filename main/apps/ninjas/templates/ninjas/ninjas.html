@@ -12,7 +12,7 @@
  <body>
 <div id='imgblock'>
    {% for color in colors %}
-      <img src="{% static 'ninjas/imgs/'|add:color %}" alt='{{  color  }}'>
+      <img src="{% static 'ninjas/imgs/'%}{{ color }}.jpg" alt='{{  color  }}'>
    {% endfor %}
 </div>
  </body>

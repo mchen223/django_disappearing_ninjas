@@ -7,22 +7,22 @@ def index(request):
 
 def ninjas(request):
     colors = {
-        'purple.jpg',
-        'blue.jpg',
-        'red.jpg',
-        'orange.jpg'
+        'purple',
+        'blue',
+        'red',
+        'orange'
     }
     return render(request, 'ninjas/ninjas.html', {'colors': colors})
 
 def color(request, color):
     if color == 'purple':
-        colors = {'purple.jpg'}
+        color = {'purple'}
     elif color == 'blue':
-        colors = {'blue.jpg'}
+        colors = {'blue'}
     elif color == 'red':
-        colors = {'red.jpg'}
+        colors = {'red'}
     elif color == 'orange':
-        colors = {'orange.jpg'}
+        colors = {'orange'}
     else:
-        colors = {'april.jpg'}
+        colors = {'april'}
     return render(request, 'ninjas/ninjas.html', {'colors': colors})
